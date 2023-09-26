@@ -1,0 +1,35 @@
+#rubriques {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.element {
+	width: 200px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.element a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.element hr {
+	border: none;
+	border-top: 1px solid #dddddd;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.element:last-child {
+	margin-bottom: 0;
+}

@@ -1,0 +1,82 @@
+.l1 {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+#corps {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+
+.image-contenu {
+  width: 200px;
+  height: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+
+
+.photo img {
+  width: 200px;
+  /* Largeur souhaitée pour les images */
+  height: 100px;
+  /* Hauteur souhaitée pour les images */
+  object-fit: cover;
+
+
+}
+
+.jour {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.jour p {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.nom {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.nom a {
+  color: black;
+}
+
+
+#titre h1 {
+  color: black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 40px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-transform: uppercase;
+}

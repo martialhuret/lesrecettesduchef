@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #b6b4b4;
+    color: black;
+}
+
+#intitule p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.contenu p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.image img {
+
+    width: 500px;
+    /* Largeur souhaitée pour les images */
+    height: 300px;
+    /* Hauteur souhaitée pour les images */
+    float: left;
+    margin-right: 20px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.titre {
+    font-family: 'Times';
+    font-size: 20px;
+    margin-left: 400px;
+
+
+    display: flex;
+}

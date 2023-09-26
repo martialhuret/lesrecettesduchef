@@ -1,0 +1,166 @@
+#titre {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Chewy';
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+
+#image img {
+    margin-left: 600px;
+    width: 500px;
+    /* Largeur souhaitée pour les images */
+    height: 300px;
+    /* Hauteur souhaitée pour les images */
+    float: left;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.tempsPrep img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+
+.prep {
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.tempsPrep {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#etoile img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px;
+}
+
+#avis {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#note {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+#contenu {
+    display: inline-block;
+}
+
+.titreElmt {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Chewy';
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#imageIngredients img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+
+#imageIngredients {
+    margin-left: -550px;
+}
+
+#ingredient {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}
+
+
+#quantite {
+    margin-left: 170px;
+}
+
+#etapes {
+
+    white-space: pre-line;
+    text-align: left;
+    text-align: center
+}
+
+
+#fin img {
+    width: 500px;
+    height: 400px;
+    margin-top: 200px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.container {
+    display: inline-block;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: 40px;
+    width: 52%;
+}
+
+.avis1,
+.avis2 {
+    width: 20%;
+    /* Moitié de la largeur disponible pour chaque avis */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 300px;
+    margin-left: 50px;
+    color: rgba(0, 33, 64, 1);
+
+}
+
+#favoris-button {
+    background-color: rgb(50, 71, 99);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#favoris-button:hover {
+    background-color: rgba(0, 33, 64, 1);
+
+}

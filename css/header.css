@@ -1,0 +1,127 @@
+#banniere {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to right, rgb(50, 71, 99), rgb(201, 176, 178)) !important;
+	/*permet d'avoir les couleurs en dégradé et !important ppur le "forcer"*/
+}
+
+
+#image_gauche {
+	display: flex;
+	align-items: center;
+}
+
+#image_gauche img {
+	margin-right: 10px;
+}
+
+#logo1 img {
+	height: 80px;
+	width: 110px;
+}
+
+#logo1:hover {
+	cursor: pointer;
+}
+
+#logo3:hover {
+	cursor: pointer;
+}
+
+#logo3 img {
+	height: 80px;
+	width: 80px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#moncompte {
+	display: flex;
+	align-items: center;
+}
+
+#moncompte img {
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+	align-items: center;
+}
+
+#secoco {
+	display: flex;
+	align-items: flex-start;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+#secoco img {
+	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
+	margin-left: 18px;
+}
+
+#secoco .text {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+#secoco a {
+	text-decoration: none;
+	color: white;
+}
+
+#secoco a:hover {
+	color: black;
+}
+
+#navigation {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 350px;
+	background-color: #f9f9f9;
+	opacity: 0.97;
+	transform: translateX(-350px);
+	transition: transform 0.3s ease-in-out;
+	z-index: 9999;
+	text-align: center;
+}
+
+#navigation.open {
+	transform: translateX(0);
+}
+
+#navigation .nav-links {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+#navigation .nav-links a {
+	color: #333;
+	text-decoration: none;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+
+#navigation .nav-links a:hover {
+	color: #ff0000;
+}
+
+#navigation .nav-links a:last-child {
+	position: fixed;
+	bottom: 10px;
+	width: 80%;
+	text-align: center;
+}
+
+
+html {
+	background-color: #adabab;
+}

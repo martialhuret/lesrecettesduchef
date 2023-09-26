@@ -1,0 +1,48 @@
+#searchbar {
+
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+}
+
+#list {
+    font-size: 1.5em;
+    margin-left: 90px;
+
+}
+
+.aliments {
+    display: none;
+}
+
+#added-aliments {
+    margin-top: 20px;
+    margin-bottom: 600px;
+}
+
+.added-aliment {
+    font-size: 1.2em;
+
+}
+
+.add-button {
+    width: 30px;
+    height: 30px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+}

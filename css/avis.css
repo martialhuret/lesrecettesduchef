@@ -1,0 +1,39 @@
+h1 {
+  color: black;
+}
+
+form {
+  background-color: rgb(117, 116, 117);
+  padding: 10px;
+  border-radius: 5px;
+  width: 87%;
+  margin-left: 100px;
+}
+
+input[type="text"],
+textarea {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4d4d4d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #303b60;
+}
+
+.log p {
+  color: #060606;
+  font-size: 18px;
+  font-weight: 700;
+}
